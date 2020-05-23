@@ -1,7 +1,7 @@
 import { createElement } from "react";
 import { render } from "react-dom";
-import RenderLines from "./RenderLines";
-import RenderAddForm from "./RenderAddForm";
+import RenderLines from "./TableLines";
+import RenderAddForm from "./TableForm";
 
 export default function config_init(cluster: string, table_id: string) {
   const table = (
